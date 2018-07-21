@@ -1,0 +1,1572 @@
+{
+  "BloodPressure" : {
+    "BxQMEqkibwaQvzGZcji3wThptX73" : {
+      "-KtQ4V7Ga96UwSTFWMKn" : {
+        "Diastolic" : 55,
+        "Pulse" : 76,
+        "Systolic" : 81,
+        "startedAt" : 1504766722766
+      },
+      "-KtQ4jDinbpexirLtDoh" : {
+        "Diastolic" : 55,
+        "Pulse" : 76,
+        "Systolic" : 81,
+        "startedAt" : 1504766784617
+      },
+      "-KtQ8BarU-8c6mwqJypb" : {
+        "Diastolic" : 85,
+        "Pulse" : 69,
+        "Systolic" : 109,
+        "startedAt" : 1504767691368
+      },
+      "-KtQ9YBA_oL-jBjLakgg" : {
+        "Diastolic" : 85,
+        "Pulse" : 69,
+        "Systolic" : 109,
+        "startedAt" : 1504768046019
+      },
+      "-KtQ9s9rL2FF0QZIvbKN" : {
+        "Diastolic" : 85,
+        "Pulse" : 69,
+        "Systolic" : 109,
+        "startedAt" : 1504768131953
+      },
+      "Diastolic" : 80,
+      "Pulse" : 84,
+      "Systolic" : 94,
+      "startedAt" : 1505867792449
+    },
+    "QLlvaAoV9whbjJGacfWMmJFKHSJ3" : {
+      "Diastolic" : 80,
+      "Pulse" : 84,
+      "Systolic" : 94,
+      "startedAt" : 1504771128893
+    },
+    "z8fdKWoxLmeyNPAqA6QqRR2Xd3I3" : {
+      "Diastolic" : 77,
+      "Pulse" : 65,
+      "Systolic" : 109,
+      "startedAt" : 1504761889995
+    }
+  },
+  "admin" : {
+    "YdoWrSQzrSW8CBfgCfgWa23cZsG3" : true,
+    "keKizl7u0zMpPiQYb1LcRYQWkdu2" : true
+  },
+  "category" : {
+    "cat01" : "Cafe",
+    "cat02" : "Drinks",
+    "cat03" : "Pastry",
+    "cat04" : "Meal"
+  },
+  "combines" : {
+    "C1zD" : {
+      "-KvIZofAfzpI9WW7OJKV" : {
+        "checked" : false,
+        "create" : true,
+        "createdAt" : 1506788200114,
+        "status" : "Queued",
+        "uid" : "D0vvwkTZ0PSFmsexaMAqetRa49q2"
+      }
+    },
+    "EDQE" : {
+      "-KvIlJacayk00qS_dplR" : {
+        "checked" : false,
+        "create" : true,
+        "createdAt" : 1506791476623,
+        "status" : "Queued",
+        "uid" : "D0vvwkTZ0PSFmsexaMAqetRa49q2"
+      }
+    },
+    "MYk6" : {
+      "-KvIxQCLgk6uXeexUw2x" : {
+        "checked" : false,
+        "create" : true,
+        "createdAt" : 1506794648509,
+        "status" : "Queued",
+        "uid" : "D0vvwkTZ0PSFmsexaMAqetRa49q2"
+      }
+    },
+    "QxPt" : {
+      "-KvIcZQ6MfzU8TXR48BM" : {
+        "checked" : false,
+        "create" : true,
+        "createdAt" : 1506789182127,
+        "status" : "Queued",
+        "uid" : "D0vvwkTZ0PSFmsexaMAqetRa49q2"
+      }
+    },
+    "XA7y" : {
+      "-KuyO-9EagLhYH9kMvVk" : {
+        "checked" : false,
+        "create" : true,
+        "createdAt" : 1506432789460,
+        "status" : "Queued",
+        "uid" : "D0vvwkTZ0PSFmsexaMAqetRa49q2"
+      }
+    },
+    "mN6d" : {
+      "-KvIxBkJycxd1Nx0Kr8o" : {
+        "checked" : false,
+        "create" : true,
+        "createdAt" : 1506794589304,
+        "status" : "Queued",
+        "uid" : "D0vvwkTZ0PSFmsexaMAqetRa49q2"
+      }
+    },
+    "olzP" : {
+      "-KvIxPxln1LB6OPN8lTv" : {
+        "checked" : false,
+        "create" : true,
+        "createdAt" : 1506794647509,
+        "status" : "Queued",
+        "uid" : "D0vvwkTZ0PSFmsexaMAqetRa49q2"
+      }
+    },
+    "yYmk" : {
+      "-KuyPHkMULfanGV_ZTli" : {
+        "checked" : false,
+        "create" : true,
+        "createdAt" : 1506433118609,
+        "status" : "Queued",
+        "uid" : "cVOiA1qEkhbTY4cyOOBDhxdpP1F2"
+      }
+    },
+    "ydax" : {
+      "-KuyPcLwFxe6doS389XY" : {
+        "checked" : false,
+        "create" : true,
+        "createdAt" : 1506433207091,
+        "status" : "Queued",
+        "uid" : "aucgZ95CxNWN4hJyKKo7o44qJq03"
+      }
+    },
+    "zMSM" : {
+      "-KvIZb5YE-cqUqMhSx4n" : {
+        "checked" : false,
+        "create" : true,
+        "createdAt" : 1506788154239,
+        "status" : "Queued",
+        "uid" : "D0vvwkTZ0PSFmsexaMAqetRa49q2"
+      }
+    }
+  },
+  "featured" : {
+    "item1" : "slide_1",
+    "item2" : "slide_2"
+  },
+  "menu" : {
+    "Americano" : {
+      "available" : true,
+      "category" : "cat01",
+      "description" : "",
+      "image" : "americano",
+      "material" : {
+        "coffee_bean" : 10
+      },
+      "name" : "美式咖啡",
+      "price" : 99,
+      "price_take_out" : 99,
+      "purchase_price" : 49,
+      "visible" : true
+    },
+    "Cappuccino" : {
+      "available" : true,
+      "category" : "cat01",
+      "image" : "cappuccino",
+      "name" : "卡布奇諾"
+    },
+    "item01" : {
+      "available" : true,
+      "category" : "cat01",
+      "description" : "",
+      "image" : "america_coffee",
+      "name" : "美式咖啡",
+      "price" : 40,
+      "price_take_out" : 50,
+      "purchase_price" : 20,
+      "stock" : 100,
+      "visible" : true
+    },
+    "item02" : {
+      "available" : true,
+      "category" : "cat01",
+      "description" : "",
+      "image" : "latte",
+      "name" : "拿鐵",
+      "price" : 55,
+      "price_take_out" : 65,
+      "purchase_price" : 35,
+      "stock" : 100
+    },
+    "item03" : {
+      "available" : true,
+      "category" : "cat01",
+      "description" : "",
+      "image" : "cappuccino",
+      "name" : "卡布奇諾",
+      "price" : 55,
+      "price_take_out" : 65,
+      "purchase_price" : 35,
+      "stock" : 100
+    },
+    "item04" : {
+      "available" : true,
+      "category" : "cat02",
+      "description" : "",
+      "image" : "hot_coco",
+      "name" : "熱可可",
+      "price" : 40,
+      "price_take_out" : 45,
+      "purchase_price" : 20,
+      "stock" : 100
+    },
+    "item05" : {
+      "available" : true,
+      "category" : "cat02",
+      "description" : "",
+      "image" : "black_tea",
+      "name" : "熱紅茶",
+      "price" : 30,
+      "price_take_out" : 35,
+      "purchase_price" : 10,
+      "stock" : 100
+    },
+    "item06" : {
+      "available" : true,
+      "category" : "cat02",
+      "description" : "",
+      "image" : "milk_tea",
+      "name" : "鮮奶茶",
+      "price" : 40,
+      "price_take_out" : 45,
+      "purchase_price" : 20,
+      "stock" : 100
+    },
+    "item07" : {
+      "available" : true,
+      "category" : "cat03",
+      "description" : "",
+      "image" : "Pastry1",
+      "name" : "法芙娜半熟巧克力蛋糕",
+      "price" : 35,
+      "price_take_out" : 35,
+      "purchase_price" : 15,
+      "stock" : 100
+    },
+    "item08" : {
+      "available" : true,
+      "category" : "cat03",
+      "description" : "",
+      "image" : "Pastry2",
+      "name" : "相思抹茶戚風蛋糕",
+      "price" : 50,
+      "price_take_out" : 50,
+      "purchase_price" : 30,
+      "stock" : 100
+    },
+    "item09" : {
+      "available" : true,
+      "category" : "cat03",
+      "description" : "",
+      "image" : "Pastry3",
+      "name" : "芝麻麻糬半熟蛋糕",
+      "price" : 40,
+      "price_take_out" : 40,
+      "purchase_price" : 20,
+      "stock" : 100
+    },
+    "item10" : {
+      "available" : true,
+      "category" : "cat04",
+      "description" : "",
+      "image" : "Chocolate_slabs",
+      "name" : "巧克力厚片",
+      "price" : 40,
+      "price_take_out" : 40,
+      "purchase_price" : 20,
+      "stock" : 100
+    },
+    "item11" : {
+      "available" : true,
+      "category" : "cat04",
+      "description" : "",
+      "image" : "Milk_crisp_thick_slices",
+      "name" : "奶酥厚片",
+      "price" : 40,
+      "price_take_out" : 40,
+      "purchase_price" : 20,
+      "stock" : 100
+    },
+    "item12" : {
+      "available" : true,
+      "category" : "cat04",
+      "description" : "",
+      "image" : "Peanut_slices",
+      "name" : "花生厚片",
+      "price" : 40,
+      "price_take_out" : 40,
+      "purchase_price" : 20,
+      "stock" : 100
+    },
+    "item13" : {
+      "available" : true,
+      "category" : "cat04",
+      "description" : "需等候10分鐘(Please wait for 10 minutes)",
+      "image" : "Honey_muffins",
+      "name" : "蜂蜜鬆餅",
+      "price" : 60,
+      "price_take_out" : 60,
+      "purchase_price" : 40,
+      "stock" : 100
+    },
+    "item14" : {
+      "available" : true,
+      "category" : "cat04",
+      "description" : "需等候10分鐘(Please wait for 10 minutes)",
+      "image" : "Chocolate_muffins",
+      "name" : "巧克力鬆餅",
+      "price" : 60,
+      "price_take_out" : 60,
+      "purchase_price" : 40,
+      "stock" : 100
+    },
+    "item15" : {
+      "available" : true,
+      "category" : "cat04",
+      "description" : "",
+      "image" : "pizza",
+      "name" : "總匯披薩",
+      "price" : 60,
+      "price_take_out" : 60,
+      "purchase_price" : 40,
+      "stock" : 100
+    }
+  },
+  "orders" : {
+    "1648001071879470" : {
+      "-Kv0VLuPckpNJKwl0m77" : {
+        "checked" : false,
+        "createdAt" : 1506485040043,
+        "createdBy" : "1648001071879470",
+        "order_list" : {
+          "item01" : {
+            "Ice" : "少冰",
+            "Sweetnesslevel" : "半糖",
+            "cafe_name" : "拿鐵",
+            "count" : 1
+          }
+        },
+        "orderid" : "-Kv0VLuPckpNJKwl0m77",
+        "status" : "Completed",
+        "total_price" : 100,
+        "type" : "eathere"
+      },
+      "-Kv5LCxLjKrExvCqHD7H" : {
+        "checked" : false,
+        "createdAt" : 1506566274983,
+        "createdBy" : "1648001071879470",
+        "order_list" : {
+          "item01" : {
+            "count" : "1000"
+          }
+        },
+        "orderid" : "-Kv5LCxLjKrExvCqHD7H",
+        "status" : "Completed",
+        "total_price" : 100,
+        "type" : "eathere"
+      }
+    },
+    "D0vvwkTZ0PSFmsexaMAqetRa49q2" : {
+      "-KvHlasi2ebaIm2wK5G1" : {
+        "checked" : false,
+        "createdAt" : 1506436227261,
+        "createdBy" : "D0vvwkTZ0PSFmsexaMAqetRa49q2",
+        "orderlist" : {
+          "item01" : {
+            "count" : 5
+          }
+        },
+        "status" : "Completed",
+        "total_price" : 200,
+        "type" : "eathere"
+      },
+      "-KvHlbMMtSj3lUF7eoQQ" : {
+        "checked" : false,
+        "createdAt" : 1506436271588,
+        "createdBy" : "D0vvwkTZ0PSFmsexaMAqetRa49q2",
+        "orderlist" : {
+          "item01" : {
+            "count" : 5
+          },
+          "item02" : {
+            "count" : 3
+          },
+          "item03" : {
+            "count" : 2
+          }
+        },
+        "status" : "Completed",
+        "total_price" : 475,
+        "type" : "eathere"
+      },
+      "-KvNmUp1KXxk41BvrZAP" : {
+        "checked" : false,
+        "createdAt" : 1506800284944,
+        "createdBy" : "D0vvwkTZ0PSFmsexaMAqetRa49q2",
+        "orderlist" : {
+          "item01" : {
+            "count" : 2
+          }
+        },
+        "status" : "Completed",
+        "total_price" : 80,
+        "type" : "eathere"
+      }
+    },
+    "MNVmzEyAu3gFi0muYV44aajVImr1" : {
+      "-KvHlaUNGDxemh7nirwq" : {
+        "checked" : false,
+        "createdAt" : 1506433474905,
+        "createdBy" : "MNVmzEyAu3gFi0muYV44aajVImr1",
+        "orderlist" : {
+          "item01" : {
+            "count" : 1
+          },
+          "item03" : {
+            "count" : 1
+          },
+          "item04" : {
+            "count" : 1
+          },
+          "item06" : {
+            "count" : 3
+          },
+          "item11" : {
+            "count" : 2
+          },
+          "item13" : {
+            "count" : 1
+          }
+        },
+        "status" : "Completed",
+        "total_price" : 395,
+        "type" : "eathere"
+      }
+    }
+  },
+  "parameters" : {
+    "6666666" : {
+      "cafe" : "drink"
+    }
+  },
+  "pipeline" : {
+    "coffee" : {
+      "machine1" : 1507195319024,
+      "machine2" : 1507595319024
+    }
+  },
+  "preorders" : {
+    "D0vvwkTZ0PSFmsexaMAqetRa49q2" : {
+      "-Kuya8nJI8skmqsBx-Ds" : {
+        "checked" : false,
+        "createdAt" : 1506436227261,
+        "createdBy" : "D0vvwkTZ0PSFmsexaMAqetRa49q2",
+        "order_list" : {
+          "item01" : {
+            "count" : 5
+          }
+        },
+        "orderid" : "-Kuya8nJI8skmqsBx-Ds",
+        "status" : "Completed",
+        "total_price" : 200,
+        "type" : "eathere"
+      },
+      "-KuyaJbvmWILXTSRqF2g" : {
+        "checked" : false,
+        "createdAt" : 1506436271588,
+        "createdBy" : "D0vvwkTZ0PSFmsexaMAqetRa49q2",
+        "order_list" : {
+          "item01" : {
+            "count" : 5
+          },
+          "item02" : {
+            "count" : 3
+          },
+          "item03" : {
+            "count" : 2
+          }
+        },
+        "orderid" : "-KuyaJbvmWILXTSRqF2g",
+        "status" : "Completed",
+        "total_price" : 475,
+        "type" : "eathere"
+      },
+      "-KuzMKnA6DBYfAWGgbDP" : {
+        "checked" : false,
+        "createdAt" : 1506449129773,
+        "createdBy" : "D0vvwkTZ0PSFmsexaMAqetRa49q2",
+        "order_list" : {
+          "item01" : {
+            "count" : 10
+          }
+        },
+        "orderid" : "-KuzMKnA6DBYfAWGgbDP",
+        "status" : "Completed",
+        "total_price" : 400,
+        "type" : "eathere"
+      },
+      "-Kv0NZubWDtIQS2Yal7X" : {
+        "checked" : false,
+        "createdAt" : 1506483009185,
+        "createdBy" : "D0vvwkTZ0PSFmsexaMAqetRa49q2",
+        "order_list" : {
+          "item01" : {
+            "count" : 13
+          }
+        },
+        "orderid" : "-Kv0NZubWDtIQS2Yal7X",
+        "status" : "Completed",
+        "total_price" : 520,
+        "type" : "eathere"
+      },
+      "-Kv0ewRhQ_tRWnMRGOmy" : {
+        "checked" : false,
+        "createdAt" : 1506487815229,
+        "createdBy" : "D0vvwkTZ0PSFmsexaMAqetRa49q2",
+        "order_list" : {
+          "item01" : {
+            "count" : 9
+          },
+          "item03" : {
+            "count" : 10
+          }
+        },
+        "orderid" : "-Kv0ewRhQ_tRWnMRGOmy",
+        "status" : "Completed",
+        "total_price" : 910,
+        "type" : "eathere"
+      },
+      "-Kv0u1hW7ZtcNCGw1U9v" : {
+        "checked" : false,
+        "createdAt" : 1506491772237,
+        "createdBy" : "D0vvwkTZ0PSFmsexaMAqetRa49q2",
+        "order_list" : {
+          "item14" : {
+            "count" : 7
+          }
+        },
+        "orderid" : "-Kv0u1hW7ZtcNCGw1U9v",
+        "status" : "Completed",
+        "total_price" : 420,
+        "type" : "eathere"
+      },
+      "-Kv0uWxns5nSVMoB3ee2" : {
+        "checked" : false,
+        "createdAt" : 1506491900162,
+        "createdBy" : "D0vvwkTZ0PSFmsexaMAqetRa49q2",
+        "order_list" : {
+          "item06" : {
+            "count" : 22
+          }
+        },
+        "orderid" : "-Kv0uWxns5nSVMoB3ee2",
+        "status" : "Completed",
+        "total_price" : 880,
+        "type" : "eathere"
+      },
+      "-Kv0wcuymOvlnmNnnPx5" : {
+        "checked" : false,
+        "createdAt" : 1506492452942,
+        "createdBy" : "D0vvwkTZ0PSFmsexaMAqetRa49q2",
+        "order_list" : {
+          "item01" : {
+            "count" : 25
+          },
+          "item08" : {
+            "count" : 8
+          }
+        },
+        "orderid" : "-Kv0wcuymOvlnmNnnPx5",
+        "status" : "Completed",
+        "total_price" : 1400,
+        "type" : "eathere"
+      },
+      "-Kv153xGjo4OFNWpqSA0" : {
+        "checked" : false,
+        "createdAt" : 1506494926869,
+        "createdBy" : "D0vvwkTZ0PSFmsexaMAqetRa49q2",
+        "order_list" : {
+          "item13" : {
+            "count" : 10
+          }
+        },
+        "orderid" : "-Kv153xGjo4OFNWpqSA0",
+        "status" : "Completed",
+        "total_price" : 600,
+        "type" : "eathere"
+      },
+      "-Kv1BrpON7dhN72Zvk6R" : {
+        "checked" : false,
+        "createdAt" : 1506496708126,
+        "createdBy" : "D0vvwkTZ0PSFmsexaMAqetRa49q2",
+        "order_list" : {
+          "item06" : {
+            "count" : 12
+          }
+        },
+        "orderid" : "-Kv1BrpON7dhN72Zvk6R",
+        "status" : "Completed",
+        "total_price" : 480,
+        "type" : "eathere"
+      },
+      "-Kv6cXdGXkSRU5jLjiUG" : {
+        "checked" : false,
+        "createdAt" : 1506587858380,
+        "createdBy" : "D0vvwkTZ0PSFmsexaMAqetRa49q2",
+        "order_list" : {
+          "item07" : {
+            "count" : 14
+          }
+        },
+        "orderid" : "-Kv6cXdGXkSRU5jLjiUG",
+        "status" : "Completed",
+        "total_price" : 490,
+        "type" : "eathere"
+      },
+      "-KvB0xY_OjYHiLGQT-aT" : {
+        "checked" : false,
+        "createdAt" : 1506661633478,
+        "createdBy" : "D0vvwkTZ0PSFmsexaMAqetRa49q2",
+        "order_list" : {
+          "item07" : {
+            "count" : 16
+          },
+          "item09" : {
+            "count" : 10
+          }
+        },
+        "orderid" : "-KvB0xY_OjYHiLGQT-aT",
+        "status" : "Completed",
+        "total_price" : 960,
+        "type" : "eathere"
+      },
+      "-KvB175p72KAoaeAoyAm" : {
+        "checked" : false,
+        "createdAt" : 1506661664944,
+        "createdBy" : "D0vvwkTZ0PSFmsexaMAqetRa49q2",
+        "order_list" : {
+          "item01" : {
+            "count" : 4
+          }
+        },
+        "orderid" : "-KvB175p72KAoaeAoyAm",
+        "status" : "Completed",
+        "total_price" : 160,
+        "type" : "eathere"
+      },
+      "-KvB3AMy9TogRT6nS_oc" : {
+        "checked" : false,
+        "createdAt" : 1506662202638,
+        "createdBy" : "D0vvwkTZ0PSFmsexaMAqetRa49q2",
+        "order_list" : {
+          "item07" : {
+            "count" : 8
+          }
+        },
+        "orderid" : "-KvB3AMy9TogRT6nS_oc",
+        "status" : "Completed",
+        "total_price" : 280,
+        "type" : "eathere"
+      },
+      "-KvJHsoG3e3PXdcVeQ3s" : {
+        "checked" : false,
+        "createdAt" : 1506800284944,
+        "createdBy" : "D0vvwkTZ0PSFmsexaMAqetRa49q2",
+        "order_list" : {
+          "item01" : {
+            "count" : 2
+          }
+        },
+        "orderid" : "-KvJHsoG3e3PXdcVeQ3s",
+        "status" : "Completed",
+        "total_price" : 80,
+        "type" : "eathere"
+      },
+      "-KvJKAFHwJHDTaZuB8BF" : {
+        "checked" : false,
+        "createdAt" : 1506800876016,
+        "createdBy" : "D0vvwkTZ0PSFmsexaMAqetRa49q2",
+        "order_list" : {
+          "item01" : {
+            "count" : 3
+          }
+        },
+        "orderid" : "-KvJKAFHwJHDTaZuB8BF",
+        "status" : "Making",
+        "total_price" : 120,
+        "type" : "eathere"
+      },
+      "-KvJbPnfDGSEjR7lNEE3" : {
+        "checked" : false,
+        "createdAt" : 1506805657114,
+        "createdBy" : "D0vvwkTZ0PSFmsexaMAqetRa49q2",
+        "order_list" : {
+          "item01" : {
+            "count" : 31
+          }
+        },
+        "orderid" : "-KvJbPnfDGSEjR7lNEE3",
+        "status" : "Queued",
+        "total_price" : 1240,
+        "type" : "eathere"
+      },
+      "-KvJfR7pv_wMA9TYW8hp" : {
+        "checked" : false,
+        "createdAt" : 1506806711139,
+        "createdBy" : "D0vvwkTZ0PSFmsexaMAqetRa49q2",
+        "order_list" : {
+          "item02" : {
+            "count" : 27
+          },
+          "item05" : {
+            "count" : 3
+          },
+          "item10" : {
+            "count" : 9
+          },
+          "item14" : {
+            "count" : 8
+          }
+        },
+        "orderid" : "-KvJfR7pv_wMA9TYW8hp",
+        "status" : "Queued",
+        "total_price" : 2415,
+        "type" : "eathere"
+      },
+      "-KvMBfEvynJH4JUttdk5" : {
+        "checked" : false,
+        "createdAt" : 1506848985840,
+        "createdBy" : "D0vvwkTZ0PSFmsexaMAqetRa49q2",
+        "order_list" : {
+          "item02" : {
+            "count" : 3
+          }
+        },
+        "orderid" : "-KvMBfEvynJH4JUttdk5",
+        "status" : "Queued",
+        "total_price" : 165,
+        "type" : "eathere"
+      },
+      "-KvMLd29cChvIqPnAI73" : {
+        "checked" : false,
+        "createdAt" : 1506851591646,
+        "createdBy" : "D0vvwkTZ0PSFmsexaMAqetRa49q2",
+        "order_list" : {
+          "item02" : {
+            "count" : 6
+          }
+        },
+        "orderid" : "-KvMLd29cChvIqPnAI73",
+        "status" : "Queued",
+        "total_price" : 330,
+        "type" : "eathere"
+      },
+      "-KvMY7Rcx821dn3dHqFH" : {
+        "checked" : false,
+        "createdAt" : 1506854865080,
+        "createdBy" : "D0vvwkTZ0PSFmsexaMAqetRa49q2",
+        "order_list" : {
+          "item04" : {
+            "count" : 7
+          }
+        },
+        "orderid" : "-KvMY7Rcx821dn3dHqFH",
+        "status" : "Queued",
+        "total_price" : 280,
+        "type" : "eathere"
+      },
+      "-KvNlvI3xvfD5Ox2hD0C" : {
+        "checked" : false,
+        "createdAt" : 1506875520395,
+        "createdBy" : "D0vvwkTZ0PSFmsexaMAqetRa49q2",
+        "order_list" : {
+          "item07" : {
+            "count" : 5
+          },
+          "item13" : {
+            "count" : 20
+          }
+        },
+        "orderid" : "-KvNlvI3xvfD5Ox2hD0C",
+        "status" : "Queued",
+        "total_price" : 1375,
+        "type" : "eathere"
+      },
+      "-KvNmGrKvJ4sM5_oYTMa" : {
+        "checked" : false,
+        "createdAt" : 1506875612827,
+        "createdBy" : "D0vvwkTZ0PSFmsexaMAqetRa49q2",
+        "order_list" : {
+          "item03" : {
+            "count" : 1
+          }
+        },
+        "orderid" : "-KvNmGrKvJ4sM5_oYTMa",
+        "status" : "Making",
+        "total_price" : 55,
+        "type" : "eathere"
+      }
+    },
+    "De3JH2INejdIanW6gBfwsDqOfbs1" : {
+      "-Kuy8kKnnWhL4zvF9iSY" : {
+        "checked" : false,
+        "createdAt" : 1506428782138,
+        "createdBy" : "De3JH2INejdIanW6gBfwsDqOfbs1",
+        "order_list" : {
+          "item13" : {
+            "count" : 1
+          },
+          "item14" : {
+            "count" : 1
+          }
+        },
+        "orderid" : "-Kuy8kKnnWhL4zvF9iSY",
+        "status" : "Completed",
+        "total_price" : 120,
+        "type" : "eathere"
+      },
+      "-KuyQ3Dkyog0d5RgaoWN" : {
+        "checked" : false,
+        "createdAt" : 1506433320864,
+        "createdBy" : "De3JH2INejdIanW6gBfwsDqOfbs1",
+        "order_list" : {
+          "item04" : {
+            "count" : 1
+          }
+        },
+        "orderid" : "-KuyQ3Dkyog0d5RgaoWN",
+        "status" : "Completed",
+        "total_price" : 40,
+        "type" : "eathere"
+      }
+    },
+    "MNVmzEyAu3gFi0muYV44aajVImr1" : {
+      "-KuyQdpi8CdUzQlU6KMU" : {
+        "checked" : false,
+        "createdAt" : 1506433474905,
+        "createdBy" : "MNVmzEyAu3gFi0muYV44aajVImr1",
+        "order_list" : {
+          "item01" : {
+            "count" : 1
+          },
+          "item03" : {
+            "count" : 1
+          },
+          "item04" : {
+            "count" : 1
+          },
+          "item06" : {
+            "count" : 3
+          },
+          "item11" : {
+            "count" : 2
+          },
+          "item13" : {
+            "count" : 1
+          }
+        },
+        "orderid" : "-KuyQdpi8CdUzQlU6KMU",
+        "status" : "Completed",
+        "total_price" : 395,
+        "type" : "eathere"
+      }
+    },
+    "REHwHIOxNGRCTLZ6M1UfSvRSbIi1" : {
+      "-KuyQIUN13IsNl0YQz8I" : {
+        "checked" : false,
+        "createdAt" : 1506433383364,
+        "createdBy" : "REHwHIOxNGRCTLZ6M1UfSvRSbIi1",
+        "order_list" : {
+          "item03" : {
+            "count" : 1
+          },
+          "item04" : {
+            "count" : 1
+          },
+          "item05" : {
+            "count" : 1
+          }
+        },
+        "orderid" : "-KuyQIUN13IsNl0YQz8I",
+        "status" : "Completed",
+        "total_price" : 125,
+        "type" : "takeout"
+      }
+    },
+    "RMTvyQoyEbff3q4Agrk3tvR1bTO2" : {
+      "-KuyQGtRnRi2hwEiiO7-" : {
+        "checked" : false,
+        "createdAt" : 1506433376839,
+        "createdBy" : "RMTvyQoyEbff3q4Agrk3tvR1bTO2",
+        "order_list" : {
+          "item04" : {
+            "count" : 1
+          },
+          "item07" : {
+            "count" : 1
+          },
+          "item12" : {
+            "count" : 1
+          },
+          "item15" : {
+            "count" : 1
+          }
+        },
+        "orderid" : "-KuyQGtRnRi2hwEiiO7-",
+        "status" : "Completed",
+        "total_price" : 175,
+        "type" : "eathere"
+      },
+      "-KuyQUq9cEZGBr4Uzix1" : {
+        "checked" : false,
+        "createdAt" : 1506433433972,
+        "createdBy" : "RMTvyQoyEbff3q4Agrk3tvR1bTO2",
+        "order_list" : {
+          "item01" : {
+            "count" : 2
+          }
+        },
+        "orderid" : "-KuyQUq9cEZGBr4Uzix1",
+        "status" : "Completed",
+        "total_price" : 80,
+        "type" : "takeout"
+      }
+    },
+    "aucgZ95CxNWN4hJyKKo7o44qJq03" : {
+      "-KuyQCa6I1xw5VapJ_uL" : {
+        "checked" : false,
+        "createdAt" : 1506433359261,
+        "createdBy" : "aucgZ95CxNWN4hJyKKo7o44qJq03",
+        "order_list" : {
+          "item01" : {
+            "count" : 1
+          },
+          "item02" : {
+            "count" : 1
+          },
+          "item03" : {
+            "count" : 1
+          },
+          "item04" : {
+            "count" : 1
+          },
+          "item05" : {
+            "count" : 1
+          },
+          "item06" : {
+            "count" : 1
+          },
+          "item08" : {
+            "count" : 1
+          },
+          "item15" : {
+            "count" : 1
+          }
+        },
+        "orderid" : "-KuyQCa6I1xw5VapJ_uL",
+        "status" : "Completed",
+        "total_price" : 370,
+        "type" : "eathere"
+      }
+    },
+    "cVOiA1qEkhbTY4cyOOBDhxdpP1F2" : {
+      "-KuyPwsLJIR0qiOUI9lc" : {
+        "checked" : false,
+        "createdAt" : 1506433290756,
+        "createdBy" : "cVOiA1qEkhbTY4cyOOBDhxdpP1F2",
+        "order_list" : {
+          "item01" : {
+            "count" : 5
+          }
+        },
+        "orderid" : "-KuyPwsLJIR0qiOUI9lc",
+        "status" : "Completed",
+        "total_price" : 200,
+        "type" : "eathere"
+      },
+      "-KuyQ8fALvhenVsqAn_7" : {
+        "checked" : false,
+        "createdAt" : 1506433343158,
+        "createdBy" : "cVOiA1qEkhbTY4cyOOBDhxdpP1F2",
+        "order_list" : {
+          "item01" : {
+            "count" : 4
+          }
+        },
+        "orderid" : "-KuyQ8fALvhenVsqAn_7",
+        "status" : "Completed",
+        "total_price" : 160,
+        "type" : "eathere"
+      },
+      "-KuyQKQFa5b0S_u5Qyb2" : {
+        "checked" : false,
+        "createdAt" : 1506433391291,
+        "createdBy" : "cVOiA1qEkhbTY4cyOOBDhxdpP1F2",
+        "order_list" : {
+          "item01" : {
+            "count" : 5
+          }
+        },
+        "orderid" : "-KuyQKQFa5b0S_u5Qyb2",
+        "status" : "Completed",
+        "total_price" : 200,
+        "type" : "eathere"
+      },
+      "-KuyQgniQEftDzL71J5A" : {
+        "checked" : false,
+        "createdAt" : 1506433487064,
+        "createdBy" : "cVOiA1qEkhbTY4cyOOBDhxdpP1F2",
+        "order_list" : {
+          "item01" : {
+            "count" : 55
+          },
+          "item03" : {
+            "count" : 47
+          }
+        },
+        "orderid" : "-KuyQgniQEftDzL71J5A",
+        "status" : "Completed",
+        "total_price" : 4785,
+        "type" : "eathere"
+      },
+      "-KuyR-hIqhHn-rd0cJ9C" : {
+        "checked" : false,
+        "createdAt" : 1506433568574,
+        "createdBy" : "cVOiA1qEkhbTY4cyOOBDhxdpP1F2",
+        "order_list" : {
+          "item01" : {
+            "count" : 19
+          }
+        },
+        "orderid" : "-KuyR-hIqhHn-rd0cJ9C",
+        "status" : "Completed",
+        "total_price" : 760,
+        "type" : "eathere"
+      }
+    },
+    "ejbSPaJHEqRxcq4B4IXGDK3A6V43" : {
+      "-Kuy3cWrvIBvUNMwL5Wj" : {
+        "checked" : false,
+        "createdAt" : 1506427439421,
+        "createdBy" : "ejbSPaJHEqRxcq4B4IXGDK3A6V43",
+        "order_list" : {
+          "item04" : {
+            "count" : 1
+          },
+          "item09" : {
+            "count" : 1
+          },
+          "item15" : {
+            "count" : 1
+          }
+        },
+        "orderid" : "-Kuy3cWrvIBvUNMwL5Wj",
+        "status" : "Completed",
+        "total_price" : 140,
+        "type" : "eathere"
+      },
+      "-KuyP9sRUk186UqDmVrx" : {
+        "checked" : false,
+        "createdAt" : 1506433095507,
+        "createdBy" : "ejbSPaJHEqRxcq4B4IXGDK3A6V43",
+        "order_list" : {
+          "item01" : {
+            "count" : 3
+          },
+          "item02" : {
+            "count" : 1
+          },
+          "item03" : {
+            "count" : 1
+          }
+        },
+        "orderid" : "-KuyP9sRUk186UqDmVrx",
+        "status" : "Completed",
+        "total_price" : 230,
+        "type" : "eathere"
+      },
+      "-KuyPqVyN_k3o06OUKMt" : {
+        "checked" : false,
+        "createdAt" : 1506433264684,
+        "createdBy" : "ejbSPaJHEqRxcq4B4IXGDK3A6V43",
+        "order_list" : {
+          "item02" : {
+            "count" : 1
+          }
+        },
+        "orderid" : "-KuyPqVyN_k3o06OUKMt",
+        "status" : "Completed",
+        "total_price" : 55,
+        "type" : "eathere"
+      },
+      "-KuyQ3QqbY0pKDcK7yqA" : {
+        "checked" : false,
+        "createdAt" : 1506433321701,
+        "createdBy" : "ejbSPaJHEqRxcq4B4IXGDK3A6V43",
+        "order_list" : {
+          "item01" : {
+            "count" : 3
+          },
+          "item02" : {
+            "count" : 2
+          }
+        },
+        "orderid" : "-KuyQ3QqbY0pKDcK7yqA",
+        "status" : "Completed",
+        "total_price" : 230,
+        "type" : "eathere"
+      },
+      "-KuyQ9Ak8BZLdlqhqTx4" : {
+        "checked" : false,
+        "createdAt" : 1506433345241,
+        "createdBy" : "ejbSPaJHEqRxcq4B4IXGDK3A6V43",
+        "order_list" : {
+          "item01" : {
+            "count" : 2
+          },
+          "item02" : {
+            "count" : 3
+          },
+          "item05" : {
+            "count" : 2
+          }
+        },
+        "orderid" : "-KuyQ9Ak8BZLdlqhqTx4",
+        "status" : "Completed",
+        "total_price" : 305,
+        "type" : "eathere"
+      },
+      "-KuyQKX0KEAH0acPow2W" : {
+        "checked" : false,
+        "createdAt" : 1506433391724,
+        "createdBy" : "ejbSPaJHEqRxcq4B4IXGDK3A6V43",
+        "order_list" : {
+          "item01" : {
+            "count" : 5
+          },
+          "item03" : {
+            "count" : 4
+          }
+        },
+        "orderid" : "-KuyQKX0KEAH0acPow2W",
+        "status" : "Completed",
+        "total_price" : 420,
+        "type" : "eathere"
+      },
+      "-KuyQiU_I6lwhwI3gSXV" : {
+        "checked" : false,
+        "createdAt" : 1506433493969,
+        "createdBy" : "ejbSPaJHEqRxcq4B4IXGDK3A6V43",
+        "order_list" : {
+          "item15" : {
+            "count" : 73
+          }
+        },
+        "orderid" : "-KuyQiU_I6lwhwI3gSXV",
+        "status" : "Completed",
+        "total_price" : 4380,
+        "type" : "takeout"
+      }
+    },
+    "oDbfCosL3HQhYNvIeqEKHDkmRng1" : {
+      "-Kuy8iH43HGSB6pCk8pA" : {
+        "checked" : false,
+        "createdAt" : 1506428773707,
+        "createdBy" : "oDbfCosL3HQhYNvIeqEKHDkmRng1",
+        "order_list" : {
+          "item13" : {
+            "count" : 1
+          }
+        },
+        "orderid" : "-Kuy8iH43HGSB6pCk8pA",
+        "status" : "Completed",
+        "total_price" : 60,
+        "type" : "eathere"
+      },
+      "-KuyQ5e7f1JWwRTdjqoz" : {
+        "checked" : false,
+        "createdAt" : 1506433330805,
+        "createdBy" : "oDbfCosL3HQhYNvIeqEKHDkmRng1",
+        "order_list" : {
+          "item01" : {
+            "count" : 1
+          },
+          "item02" : {
+            "count" : 1
+          },
+          "item06" : {
+            "count" : 1
+          },
+          "item07" : {
+            "count" : 5
+          },
+          "item11" : {
+            "count" : 2
+          },
+          "item12" : {
+            "count" : 3
+          }
+        },
+        "orderid" : "-KuyQ5e7f1JWwRTdjqoz",
+        "status" : "Completed",
+        "total_price" : 510,
+        "type" : "eathere"
+      },
+      "-KuyQFXh3LdV8kcsyzJU" : {
+        "checked" : false,
+        "createdAt" : 1506433371291,
+        "createdBy" : "oDbfCosL3HQhYNvIeqEKHDkmRng1",
+        "order_list" : {
+          "item01" : {
+            "count" : 20
+          }
+        },
+        "orderid" : "-KuyQFXh3LdV8kcsyzJU",
+        "status" : "Completed",
+        "total_price" : 800,
+        "type" : "eathere"
+      },
+      "-KuyQLUPGcep_DoPcEoD" : {
+        "checked" : false,
+        "createdAt" : 1506433395652,
+        "createdBy" : "oDbfCosL3HQhYNvIeqEKHDkmRng1",
+        "order_list" : {
+          "item01" : {
+            "count" : 4
+          }
+        },
+        "orderid" : "-KuyQLUPGcep_DoPcEoD",
+        "status" : "Completed",
+        "total_price" : 160,
+        "type" : "eathere"
+      }
+    },
+    "vhwWTSYUOhT7YqebhIbMszgljuG2" : {
+      "-KuyQImtcSk0RkE2xCAK" : {
+        "checked" : false,
+        "createdAt" : 1506433384768,
+        "createdBy" : "vhwWTSYUOhT7YqebhIbMszgljuG2",
+        "order_list" : {
+          "item01" : {
+            "count" : 2
+          },
+          "item02" : {
+            "count" : 3
+          },
+          "item03" : {
+            "count" : 3
+          },
+          "item04" : {
+            "count" : 2
+          },
+          "item06" : {
+            "count" : 1
+          }
+        },
+        "orderid" : "-KuyQImtcSk0RkE2xCAK",
+        "status" : "Completed",
+        "total_price" : 530,
+        "type" : "eathere"
+      }
+    }
+  },
+  "purchase" : {
+    "-KeD_VK3xAaevxFuYeIA" : {
+      "purchase_Time" : "Thu Mar 02 2017 18:34:43 GMT+0800 (台北標準時間)",
+      "purchase_list" : {
+        "item01" : 10,
+        "item02" : 4,
+        "item05" : 7,
+        "item06" : 4,
+        "item10" : 20,
+        "item11" : 4,
+        "item12" : 5,
+        "item13" : 6
+      }
+    },
+    "-KeDnCrv-1MKLOaxQKAw" : {
+      "purchase_Time" : "Thu Mar 02 2017 19:34:38 GMT+0800 (台北標準時間)",
+      "purchase_list" : {
+        "item01" : 5,
+        "item02" : 4,
+        "item07" : 4,
+        "item08" : 4,
+        "item10" : 6,
+        "item11" : 16,
+        "item12" : 12,
+        "item13" : 6
+      }
+    },
+    "-KeDv2M-dhO36SJEZYLR" : {
+      "purchase_Time" : "Thu Mar 02 2017 20:08:52 GMT+0800 (台北標準時間)",
+      "purchase_list" : {
+        "item03" : 4
+      }
+    },
+    "-KeGOTFtE0Xefxh4TUIq" : {
+      "purchase_Time" : "Fri Mar 03 2017 07:40:59 GMT+0800 (台北標準時間)",
+      "purchase_list" : {
+        "item03" : 6
+      }
+    },
+    "-KeGbkAAxZnAOx_jMt3K" : {
+      "purchase_Time" : "Fri Mar 03 2017 08:43:22 GMT+0800 (台北標準時間)",
+      "purchase_list" : {
+        "item02" : 6
+      }
+    },
+    "-KeGki_N4Eqe8ONrWsGB" : {
+      "purchase_Time" : "Fri Mar 03 2017 09:22:35 GMT+0800 (台北標準時間)",
+      "purchase_list" : {
+        "item03" : 2,
+        "item14" : 2
+      }
+    },
+    "-KeGu0t4cS9najLYZF9v" : {
+      "purchase_Time" : "Fri Mar 03 2017 10:03:14 GMT+0800 (台北標準時間)",
+      "purchase_list" : {
+        "item03" : 2
+      }
+    },
+    "-KeGz8WaOlk5LYe2RK9T" : {
+      "purchase_Time" : "Fri Mar 03 2017 10:25:36 GMT+0800 (台北標準時間)",
+      "purchase_list" : {
+        "item01" : 4,
+        "item02" : 10,
+        "item03" : 14,
+        "item04" : 10,
+        "item11" : 6,
+        "item13" : 46,
+        "item14" : 11
+      }
+    },
+    "-KeGzT0pxw9yTapt-9BQ" : {
+      "purchase_Time" : "Fri Mar 03 2017 10:27:00 GMT+0800 (台北標準時間)",
+      "purchase_list" : {
+        "item02" : 8,
+        "item10" : 6,
+        "item11" : 4,
+        "item12" : 5,
+        "item13" : 2
+      }
+    },
+    "-KeHVJI3y2ZDvQEnQLDJ" : {
+      "purchase_Time" : "Fri Mar 03 2017 12:50:31 GMT+0800 (台北標準時間)",
+      "purchase_list" : {
+        "item01" : 17,
+        "item02" : 2,
+        "item03" : 4,
+        "item04" : 3,
+        "item05" : 2,
+        "item06" : 3,
+        "item07" : 3,
+        "item08" : 3,
+        "item10" : 3,
+        "item11" : 5,
+        "item12" : 3,
+        "item13" : 3,
+        "item14" : 4,
+        "item15" : 6
+      }
+    }
+  },
+  "table" : [ null, {
+    "taken" : 0
+  }, {
+    "taken" : 1
+  }, {
+    "taken" : 0
+  }, {
+    "taken" : 0
+  } ],
+  "users" : {
+    "1tYfxUMa5VV8RVCudFJoxuQe8i93" : {
+      "avatarUrl" : "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg",
+      "displayName" : "趙柏凱",
+      "email" : "a65843@gmail.com",
+      "providerData" : [ {
+        "displayName" : "趙柏凱",
+        "email" : "a65843@gmail.com",
+        "photoURL" : "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg",
+        "providerId" : "google.com",
+        "uid" : "100993914652197600800"
+      } ]
+    },
+    "D0vvwkTZ0PSFmsexaMAqetRa49q2" : {
+      "avatarUrl" : "https://lh3.googleusercontent.com/-jcWh_h30rac/AAAAAAAAAAI/AAAAAAAAAB0/JYUcerLBaog/photo.jpg",
+      "displayName" : "大黃鴨",
+      "email" : "ccuduck@gmail.com",
+      "providerData" : [ {
+        "displayName" : "大黃鴨",
+        "email" : "ccuduck@gmail.com",
+        "photoURL" : "https://lh3.googleusercontent.com/-jcWh_h30rac/AAAAAAAAAAI/AAAAAAAAAB0/JYUcerLBaog/photo.jpg",
+        "providerId" : "google.com",
+        "uid" : "102247571067412361173"
+      } ]
+    },
+    "De3JH2INejdIanW6gBfwsDqOfbs1" : {
+      "avatarUrl" : "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg",
+      "displayName" : "小晃",
+      "email" : "willie0507@gmail.com",
+      "providerData" : [ {
+        "displayName" : "小晃",
+        "email" : "willie0507@gmail.com",
+        "photoURL" : "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg",
+        "providerId" : "google.com",
+        "uid" : "101112654701176020380"
+      } ]
+    },
+    "MNVmzEyAu3gFi0muYV44aajVImr1" : {
+      "avatarUrl" : "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg",
+      "displayName" : "Pei-Jung Tsai",
+      "email" : "s221274155@gmail.com",
+      "providerData" : [ {
+        "displayName" : "Pei-Jung Tsai",
+        "email" : "s221274155@gmail.com",
+        "photoURL" : "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg",
+        "providerId" : "google.com",
+        "uid" : "107436437981470698056"
+      } ]
+    },
+    "REHwHIOxNGRCTLZ6M1UfSvRSbIi1" : {
+      "avatarUrl" : "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg",
+      "displayName" : "台亮周",
+      "email" : "ga731852@gmail.com",
+      "providerData" : [ {
+        "displayName" : "台亮周",
+        "email" : "ga731852@gmail.com",
+        "photoURL" : "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg",
+        "providerId" : "google.com",
+        "uid" : "107443575451801602641"
+      } ]
+    },
+    "RMTvyQoyEbff3q4Agrk3tvR1bTO2" : {
+      "avatarUrl" : "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg",
+      "displayName" : "Yang Irene",
+      "email" : "ireneatccu@gmail.com",
+      "providerData" : [ {
+        "displayName" : "Yang Irene",
+        "email" : "ireneatccu@gmail.com",
+        "photoURL" : "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg",
+        "providerId" : "google.com",
+        "uid" : "100865594687207442772"
+      } ]
+    },
+    "YdoWrSQzrSW8CBfgCfgWa23cZsG3" : {
+      "displayName" : "admin",
+      "email" : "riverhor_tw@yahoo.com.tw"
+    },
+    "ZfI0HYG4aDcIMDjfqcH67w8hN742" : {
+      "age" : "22",
+      "avatarUrl" : "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg",
+      "career" : "學生",
+      "displayName" : "孫仕寧",
+      "email" : "turkey65536@gmail.com",
+      "height" : "173",
+      "providerData" : [ {
+        "displayName" : "孫仕寧",
+        "email" : "turkey65536@gmail.com",
+        "photoURL" : "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg",
+        "providerId" : "google.com",
+        "uid" : "104409410020914247700"
+      } ],
+      "weight" : "76"
+    },
+    "aucgZ95CxNWN4hJyKKo7o44qJq03" : {
+      "avatarUrl" : "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg",
+      "displayName" : "朱建威",
+      "email" : "7299384@gmail.com",
+      "providerData" : [ {
+        "displayName" : "朱建威",
+        "email" : "7299384@gmail.com",
+        "photoURL" : "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg",
+        "providerId" : "google.com",
+        "uid" : "103016015981224807572"
+      } ]
+    },
+    "cVOiA1qEkhbTY4cyOOBDhxdpP1F2" : {
+      "avatarUrl" : "https://lh5.googleusercontent.com/-nFqVdA8uL_M/AAAAAAAAAAI/AAAAAAAAADw/USWYhzq50j8/photo.jpg",
+      "displayName" : "李宏倫",
+      "email" : "linux17@gmail.com",
+      "providerData" : [ {
+        "displayName" : "李宏倫",
+        "email" : "linux17@gmail.com",
+        "photoURL" : "https://lh5.googleusercontent.com/-nFqVdA8uL_M/AAAAAAAAAAI/AAAAAAAAADw/USWYhzq50j8/photo.jpg",
+        "providerId" : "google.com",
+        "uid" : "118244202454524551537"
+      } ]
+    },
+    "ejbSPaJHEqRxcq4B4IXGDK3A6V43" : {
+      "avatarUrl" : "https://lh5.googleusercontent.com/-Cpzs924wL3c/AAAAAAAAAAI/AAAAAAAAFh0/5T4J1fcmQD4/photo.jpg",
+      "displayName" : "鄭凱中",
+      "email" : "qaz093351365@gmail.com",
+      "providerData" : [ {
+        "displayName" : "鄭凱中",
+        "email" : "qaz093351365@gmail.com",
+        "photoURL" : "https://lh5.googleusercontent.com/-Cpzs924wL3c/AAAAAAAAAAI/AAAAAAAAFh0/5T4J1fcmQD4/photo.jpg",
+        "providerId" : "google.com",
+        "uid" : "110308883385505830365"
+      } ]
+    },
+    "mJlFLrDuWGgAUZF7SEqXjmhjwuA2" : {
+      "avatarUrl" : "https://lh3.googleusercontent.com/-PvHKsIQl4Mo/AAAAAAAAAAI/AAAAAAAAACM/0Ai_ZOo1nv8/photo.jpg",
+      "cellphone" : "0974138752",
+      "displayName" : "陳曉荷",
+      "email" : "river.860720@gmail.com",
+      "providerData" : [ {
+        "displayName" : "陳曉荷",
+        "email" : "river.860720@gmail.com",
+        "photoURL" : "https://lh3.googleusercontent.com/-PvHKsIQl4Mo/AAAAAAAAAAI/AAAAAAAAACM/0Ai_ZOo1nv8/photo.jpg",
+        "providerId" : "google.com",
+        "uid" : "102709907112558106738"
+      } ]
+    },
+    "mwCX7qbW0yfBuB3TGs0pzSdzqQF2" : {
+      "avatarUrl" : "https://lh6.googleusercontent.com/-HF3CcKbHWrE/AAAAAAAAAAI/AAAAAAAAAB8/hPMvjMZiCyg/photo.jpg",
+      "displayName" : "DAN LEE",
+      "email" : "c935411@gmail.com",
+      "providerData" : [ {
+        "displayName" : "DAN LEE",
+        "email" : "c935411@gmail.com",
+        "photoURL" : "https://lh6.googleusercontent.com/-HF3CcKbHWrE/AAAAAAAAAAI/AAAAAAAAAB8/hPMvjMZiCyg/photo.jpg",
+        "providerId" : "google.com",
+        "uid" : "118359185717721371222"
+      } ]
+    },
+    "oDbfCosL3HQhYNvIeqEKHDkmRng1" : {
+      "avatarUrl" : "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg",
+      "displayName" : "Eric Haung",
+      "email" : "eric1995319@gmail.com",
+      "providerData" : [ {
+        "displayName" : "Eric Haung",
+        "email" : "eric1995319@gmail.com",
+        "photoURL" : "https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg",
+        "providerId" : "google.com",
+        "uid" : "107718263057748669414"
+      } ]
+    },
+    "vhwWTSYUOhT7YqebhIbMszgljuG2" : {
+      "avatarUrl" : "https://lh4.googleusercontent.com/-QyfMctW1aKI/AAAAAAAAAAI/AAAAAAAAJmU/qhvK1IdGOM0/photo.jpg",
+      "displayName" : "Annie Yu",
+      "email" : "annie.p.yu@gmail.com",
+      "providerData" : [ {
+        "displayName" : "Annie Yu",
+        "email" : "annie.p.yu@gmail.com",
+        "photoURL" : "https://lh4.googleusercontent.com/-QyfMctW1aKI/AAAAAAAAAAI/AAAAAAAAJmU/qhvK1IdGOM0/photo.jpg",
+        "providerId" : "google.com",
+        "uid" : "109436815584901544307"
+      } ]
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "dev": "redux-firebasev3",
+    "stage": "redux-firebasev3",
+    "prod": "redux-firebasev3",
+    "default": "cloudcoffee-e23cb"
+  }
+}

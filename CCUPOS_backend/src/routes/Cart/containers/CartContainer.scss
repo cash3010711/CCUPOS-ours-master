@@ -1,0 +1,23 @@
+@import 'base';
+
+.container {
+
+  display: -webkit-flex;
+ display:         flex;
+ -webkit-align-items: center;
+         align-items: center;
+ -webkit-justify-content: center;
+         justify-content: center;
+
+  padding-top: 4rem;
+}
+.children {
+  height: calc(100% - 84px);
+  overflow-y:auto;
+//background-image: url("image/background.jpg");
+  @include desktop{
+    width:75%;
+    position: absolute;
+    left: 12.5%;
+  }
+}

@@ -1,0 +1,18 @@
+@import 'base';
+
+.container {
+  height: 100%;
+  overflow-y: auto;
+
+  //background-image: url("image/background.jpg");
+}
+.children {
+  height: calc(100% - 84px);
+  overflow-y:auto;
+//background-image: url("image/background.jpg");
+  @include desktop{
+    width:75%;
+    position: absolute;
+    left: 12.5%;
+  }
+}

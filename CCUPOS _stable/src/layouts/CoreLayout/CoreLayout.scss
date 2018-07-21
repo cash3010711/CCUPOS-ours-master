@@ -1,0 +1,22 @@
+@import 'base';
+
+.container {
+  height: 100%;
+  overflow-y: auto;
+
+  //background-image: url("image/background.jpg");
+}
+.children {
+  height: calc(100% - 65px);
+  overflow-y:auto;
+  background-image: url("/image/background.jpg");
+  background-color: rgba(255, 255, 255, 0.1);
+  //background-color:#fff9e6;
+
+
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
+
+}

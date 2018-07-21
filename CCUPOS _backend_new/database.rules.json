@@ -1,0 +1,63 @@
+{
+  "rules": {
+
+    "menu": {
+        ".write": "root.child('admin/'+auth.uid).val() === true",
+        ".read": true
+    },
+    "pipeline": {
+
+        ".write": true,
+        ".read": true
+
+    },
+    "table": {
+
+        ".write": true,
+        ".read": true
+
+    },
+    "users": {
+      ".write": "root.child('admin/' + auth.uid).val() === true",
+        ".read": "root.child('admin/' + auth.uid).val() === true",
+
+      "$user_id": {
+        // grants write access to the owner of this user account
+        // whose uid must exactly match the key ($user_id)
+        ".write": "$user_id === auth.uid",
+        ".read": "$user_id === auth.uid"
+      }
+    },
+     "BloodPressure": {
+      "$user_id": {
+        // grants write access to the owner of this user account
+        // whose uid must exactly match the key ($user_id)
+        ".write": "$user_id === auth.uid",
+        ".read": "$user_id === auth.uid"
+      }
+    },
+
+    "preorders" :{
+        ".write": "root.child('admin/' + auth.uid).val() === true",
+        ".read": "root.child('admin/' + auth.uid).val() === true",
+
+      "$user_id": {
+        // grants write access to the owner of this user account
+        // whose uid must exactly match the key ($user_id)
+        ".write":false,
+        ".read": "$user_id === auth.uid"
+      }
+    },
+    "orders" :{
+        ".write": "root.child('admin/' + auth.uid).val() === true",
+        ".read": "root.child('admin/' + auth.uid).val() === true",
+
+      "$user_id": {
+        // grants write access to the owner of this user account
+        // whose uid must exactly match the key ($user_id)
+        ".write":  false,
+        ".read": "$user_id === auth.uid"
+      }
+    }   
+  }
+}

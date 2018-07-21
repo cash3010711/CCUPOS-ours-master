@@ -1,0 +1,24 @@
+@import 'base';
+
+.container {
+  height: 100% ;
+  overflow-y:auto;
+  overflow-x:hidden;
+  //background-image: url("image/background.jpg");
+
+
+  @include desktop{
+    width:75%;
+
+    position: relative;
+    left: 12.5%;
+  }
+}
+.dialog {
+
+  overflow-y:auto;
+  overflow-x:hidden;
+
+  //position: relative;
+  //background-image: url("image/background.jpg");
+}

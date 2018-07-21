@@ -1,0 +1,55 @@
+@import 'base';
+
+.container {
+  @extend .flex-column-center;
+  justify-content: flex-start;
+  padding-top: 2rem;
+  width: 100%;
+  min-height: 530px;
+  background-color: inherit;
+}
+
+.progress {
+  margin-top: 5rem;
+}
+
+.panel {
+  @extend .flex-column-center;
+  justify-content: center;
+  padding: 1.25rem;
+  width: 35%;
+  @include mobile {
+    width: 75%;
+  }
+  min-width: 300px;
+  min-height: 450px;
+}
+
+.or {
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+  font-size: 1.3rem;
+}
+
+.login {
+  @extend .flex-column-center;
+  justify-content: center;
+  margin-top: 1rem;
+  &-link {
+     //color: $linkBlue;
+    font-size: 1.3rem;
+    color: $materialBlue;
+
+  }
+  &-label {
+    @extend .flex-column-center;
+    justify-content: center;
+    font-size: 1rem;
+    margin-top: 1rem;
+    color: black;
+  }
+}
+
+.providers {
+  margin-top: 1rem;
+}
