@@ -222,8 +222,9 @@ class App extends Component {
                             <FlatButton label="確認付款" labelPosition="after" primary={true} icon={< FontIcon className="fa fa-check-square-o" />} onClick={() => this.handleChecked(item.createdBy,item.orderid)}/>
                         :null
                         }
-                        <FlatButton label="刪除訂單" labelPosition="after" primary={true} icon={< FontIcon className="fa fa-check-square-o" />} onClick={()=>this.handleDelete(item.createdAt,item.createdBy)}/>
-                    </CardActions>
+                        <FlatButton label="刪除訂單" labelPosition="after" primary={true} icon={< FontIcon className="fa fa-check-square-o" />} onClick={()=>this.handleDelete(item.createdAt, item.createdBy)}/>
+						<FlatButton label="刪除訂單" labelPosition="after" primary={true} icon={< FontIcon className="fa fa-check-square-o" />} onClick={()=>this.easycard(item.createdAt, item.createdBy, item.total_price)}/>
+					</CardActions>
                 </Card>
         :null}
         </div>
@@ -426,7 +427,13 @@ class App extends Component {
         })*/
 
     }
-
+	
+	easycard(e_userID,e_orderID,e_money)
+	{
+		this.handleChecked(e_userID,e_orderID)
+		window.external.Ecard(e_money)
+	}
+	
     handleChecked(userID,orderID) {
 
         const data = {
