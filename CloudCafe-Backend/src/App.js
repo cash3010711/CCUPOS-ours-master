@@ -25,6 +25,7 @@ var base
 */
 
 class App extends Component {
+
     constructor() {
         super()
         this.renderOrders = this.renderpayingOrders.bind(this)
@@ -32,7 +33,7 @@ class App extends Component {
         this.handleComplete = this.handleComplete.bind(this)
         this.handleMaking = this.handleMaking.bind(this)
         this.state = {
-          sending : false,
+          sending : false
         }
     }
 
@@ -222,9 +223,9 @@ class App extends Component {
                             <FlatButton label="確認付款" labelPosition="after" primary={true} icon={< FontIcon className="fa fa-check-square-o" />} onClick={() => this.handleChecked(item.createdBy,item.orderid)}/>
                         :null
                         }
-                        <FlatButton label="刪除訂單" labelPosition="after" primary={true} icon={< FontIcon className="fa fa-check-square-o" />} onClick={()=>this.handleDelete(item.createdAt, item.createdBy)}/>
-						<FlatButton label="刪除訂單" labelPosition="after" primary={true} icon={< FontIcon className="fa fa-check-square-o" />} onClick={()=>this.easycard(item.createdAt, item.createdBy, item.total_price)}/>
-					</CardActions>
+                        <FlatButton label="刪除訂單" labelPosition="after" primary={true} icon={< FontIcon className="fa fa-check-square-o" />} onClick={()=>this.handleDelete(item.createdAt,item.createdBy)}/>
+						<FlatButton label="悠遊卡付款" labelPosition="after" primary={true} icon={< FontIcon className="fa fa-check-square-o" />} onClick={()=>this.easycard(item.createdBy,item.orderid,item.total_price)}/>
+                    </CardActions>
                 </Card>
         :null}
         </div>
@@ -379,7 +380,7 @@ class App extends Component {
             createdBy: createBy
           }
           console.log(data)
-          fetch('https://us-central1-cloudcoffee-e23cb.cloudfunctions.net/orderRemove', {
+          fetch('https://us-central1-cafe-le-cloud.cloudfunctions.net/orderRemove', {
           method: 'POST',
           headers: {
             'Accept': 'application/json',
@@ -427,21 +428,20 @@ class App extends Component {
         })*/
 
     }
-	
 	easycard(e_userID,e_orderID,e_money)
 	{
 		this.handleChecked(e_userID,e_orderID)
 		window.external.Ecard(e_money)
 	}
 	
-    handleChecked(userID,orderID) {
+	handleChecked(userID,orderID) {
 
         const data = {
             orderId: orderID,
             createdBy:userID
           }
           console.log(data)
-          fetch('https://us-central1-cloudcoffee-e23cb.cloudfunctions.net/check', {
+          fetch('https://us-central1-cafe-le-cloud.cloudfunctions.net/check', {
           method: 'POST',
           headers: {
             'Accept': 'application/json',
@@ -450,7 +450,7 @@ class App extends Component {
           body: JSON.stringify(data)
         })
     }
-
+	
     handleMaking(userID,orderID) {              //state( Queued -> Making )
         let newState = {
             ...this.state
@@ -589,7 +589,7 @@ class App extends Component {
 
       console.log(data)
       this.setState({sending:true});
-      fetch('https://us-central1-cloudcoffee-e23cb.cloudfunctions.net/orderRemove', {
+      fetch('https://us-central1-cafe-le-cloud.cloudfunctions.net/orderRemove', {
         method: 'POST',
         headers: {
           'Accept': 'application/json',
@@ -688,7 +688,7 @@ class App extends Component {
     render(){
         var sortedorder = []
         const style = {
-            margin: 12,
+            margin: 12
           };
 
         this.state.preorders?Object.keys(this.state.preorders).map((userid) =>{

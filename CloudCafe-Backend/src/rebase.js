@@ -12,7 +12,7 @@ var app = firebase.initializeApp({
 
 //var db = app.database();
 
-app.auth().signInWithEmailAndPassword("test@gmail.com", "testtest").catch(function(error) {
+app.auth().signInWithEmailAndPassword("sslab302@gmail.com", "sslab302").catch(function(error) {
     // Handle Errors here.
     var errorCode = error.code;
     var errorMessage = error.message;
