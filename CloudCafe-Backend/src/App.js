@@ -1,4 +1,4 @@
-﻿import React, {Component} from 'react';
+import React, {Component} from 'react';
 
 import {Card, CardActions, CardHeader, CardText} from 'material-ui/Card';
 import {Grid, Row, Col} from 'react-bootstrap';
@@ -25,6 +25,7 @@ var base
 */
 
 class App extends Component {
+
     constructor() {
         super()
         this.renderOrders = this.renderpayingOrders.bind(this)
@@ -32,7 +33,7 @@ class App extends Component {
         this.handleComplete = this.handleComplete.bind(this)
         this.handleMaking = this.handleMaking.bind(this)
         this.state = {
-          sending : false,
+          sending : false
         }
     }
 
@@ -379,7 +380,7 @@ class App extends Component {
             createdBy: createBy
           }
           console.log(data)
-          fetch('https://us-central1-cafe-le-cloud.cloudfunctions.net/orderRemove', {  //https://us-central1-cloudcoffee-e23cb.cloudfunctions.net/orderRemove
+          fetch('https://us-central1-cafe-le-cloud.cloudfunctions.net/orderRemove', {
           method: 'POST',
           headers: {
             'Accept': 'application/json',
@@ -432,15 +433,15 @@ class App extends Component {
 		this.handleChecked(e_userID,e_orderID)
 		window.external.Ecard(e_money)
 	}
-
-    handleChecked(userID,orderID) {
+	
+	handleChecked(userID,orderID) {
 
         const data = {
             orderId: orderID,
             createdBy:userID
           }
           console.log(data)
-          fetch('https://us-central1-cafe-le-cloud.cloudfunctions.net/check', {   //https://us-central1-cloudcoffee-e23cb.cloudfunctions.net/check
+          fetch('https://us-central1-cafe-le-cloud.cloudfunctions.net/check', {
           method: 'POST',
           headers: {
             'Accept': 'application/json',
@@ -448,28 +449,8 @@ class App extends Component {
           },
           body: JSON.stringify(data)
         })
-
-        let newState = {
-            ...this.state
-        }
-        var time = new Date()
-        var month = time.getMonth(time).toString()
-        month++
-        var timestring = new String()
-
-        timestring = time.getFullYear(time).toString() + month + time.getDate(time).toString()
-        //newState.preorders[userID][orderID].status = "Making"
-        //this.setState(newState)
-        base.update(`preorders/${userID}/${orderID}`, {
-            data: {time: timestring}
-        }).then(() => {
-            newState.preorders[userID][orderID].time = timestring
-        }).catch(err => {
-            //handle error
-        });
-
     }
-
+	
     handleMaking(userID,orderID) {              //state( Queued -> Making )
         let newState = {
             ...this.state
@@ -502,12 +483,12 @@ class App extends Component {
 
                         method: 'POST',
                         headers: {
-                         'Authorization' : 'key=AIzaSyAq8Xt1gbv-1CjYPYtTVsKAdUEcxlvujwI',   //AIzaSyBkOXro-6aRTgd_e7Axc-r0g7RW_SLZavk
+                         'Authorization' : 'key=AIzaSyBkOXro-6aRTgd_e7Axc-r0g7RW_SLZavk',
                           'Accept'       : 'application/json',
                           'Content-Type' : 'application/json; charset=utf-8',
                         },
                         body: JSON.stringify({
-                            data : {title:"Cloud Le Cafe" , body: "您的餐點好了 , 請至櫃台取餐。" , click_url: "https://cafe-le-cloud.firebaseio.com"},   //https://cloudcoffee-e23cb.firebaseapp.com/
+                            data : {title:"Cloud Le Cafe" , body: "您的餐點好了 , 請至櫃台取餐。" , click_url: "https://cloudcoffee-e23cb.firebaseapp.com/"},
                             to: this.state.users[userID]?this.state.users[userID].deviceId :null,
                         })
                       })
@@ -603,13 +584,12 @@ class App extends Component {
           status:  this.state.preorders[userID][orderID].status,
           total_price:  this.state.preorders[userID][orderID].total_price,
           type:  this.state.preorders[userID][orderID].type,
-          table: this.state.preorders[userID][orderID].table,
-          time: this.state.preorders[userID][orderID].time
+          table: this.state.preorders[userID][orderID].table
       }
 
       console.log(data)
       this.setState({sending:true});
-      fetch('https://us-central1-cafe-le-cloud.cloudfunctions.net/orderRemove', { //https://us-central1-cloudcoffee-e23cb.cloudfunctions.net/orderRemove
+      fetch('https://us-central1-cafe-le-cloud.cloudfunctions.net/orderRemove', {
         method: 'POST',
         headers: {
           'Accept': 'application/json',
@@ -708,7 +688,7 @@ class App extends Component {
     render(){
         var sortedorder = []
         const style = {
-            margin: 12,
+            margin: 12
           };
 
         this.state.preorders?Object.keys(this.state.preorders).map((userid) =>{
