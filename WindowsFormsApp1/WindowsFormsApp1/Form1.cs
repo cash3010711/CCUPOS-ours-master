@@ -148,13 +148,13 @@ FeatureControl\FEATURE_BROWSER_EMULATION",
         // Send 事件處理
         private void Send(string aram)
         {
-            string money_after = "< TM >< TRANS >< T0100 > 0100 </ T0100 >< T0300 > 811599 </ T0300 >< T0400 >";
+            string money_after = "<TM><TRANS><T0100>0100</T0100><T0300>811599</T0300><T0400>";
             string money = aram;
-            string time_after = "</ T0400 >< T1101 > 001003 </ T1101 >< T1201 > ";
+            string time_after = "</T0400><T1101>001003</T1101><T1201> ";
             string time = DateTime.Now.ToString("HHmmss");
-            string date_after = "</ T1201 >< T1301 > ";
+            string date_after = "</T1201><T1301>";
             string date = DateTime.Now.ToString("yyyyMMdd");
-            string final_after = "</ T1301 >< T3701 > POS_TXN_NUM_011 </ T3701 >< T5504 > TM </ T5504 >< T5510 > 1234 </ T5510 ></ TRANS ></ TM >";
+            string final_after = "</T1301><T3701>POS_TXN_NUM_011</T3701><T5504>TM</T5504><T5510>1234</T5510></TRANS></TM>";
             ; string str = money_after + money + time_after + time + date_after + date + final_after;
 
             rs232Output(str.ToCharArray());
