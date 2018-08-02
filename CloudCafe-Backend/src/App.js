@@ -433,6 +433,7 @@ class App extends Component {
 		this.handleChecked(e_userID,e_orderID)
 		window.external.Ecard(e_money)
 	}
+	//easycard success(){}
 	
 	handleChecked(userID,orderID) {
 
