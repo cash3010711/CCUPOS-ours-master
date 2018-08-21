@@ -28,3 +28,6 @@ C:\Users\Cure\Desktop\CCUPOS-ours-master-init\CCUPOS-ours-master\WindowsFormsApp
 C:\Users\Cure\Desktop\CCUPOS-ours-master-init\CCUPOS-ours-master\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
 C:\Users\Cure\Desktop\CCUPOS-ours-master-init\CCUPOS-ours-master\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\Cure\Desktop\CCUPOS-ours-master-init\CCUPOS-ours-master\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Cure\Desktop\CCUPOS-ours-master-init\CCUPOS-ours-master\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Cure\Desktop\CCUPOS-ours-master-init\CCUPOS-ours-master\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Cure\Desktop\CCUPOS-ours-master-init\CCUPOS-ours-master\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CopyComplete

@@ -1,14 +1,20 @@
 {
-  "name": "child-count-functions",
-  "description": "Count Child nodes Firebase Functions sample",
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase serve --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
   "dependencies": {
-    "cors": "^2.8.1",
-    "delay": "^2.0.0",
-    "firebase-admin": "^4.1.1",
-    "firebase-functions": "^0.5.1",
-    "moment": "^2.17.1",
-    "randomstring": "^1.1.5",
-    "uuid": "^3.2.1"
-
-  }
+    "cors": "^2.8.4",
+    "delay": "^3.0.0",
+    "firebase-admin": "^5.12.1",
+    "firebase-functions": "^1.1.0",
+    "moment": "^2.22.2",
+    "randomstring": "^1.1.5"
+  },
+  "private": true
 }

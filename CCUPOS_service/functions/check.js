@@ -53,14 +53,14 @@ exports.handler = function(req, res){
   if (req.method === 'POST') {
     cors(req,res,() =>{
     var semaphoreRef = admin.database().ref('/checksemaphore')
-
+	console.log(req.body)
     var date=new Date()
     var flag= date.valueOf()
     semaphoreRef.once('value',(snapshot)=>{
 
       var semaphore = snapshot.val();
       //console.log(semaphore)
-      if(semaphore!=0) {res.status(401).send({'error':'busy'}); process.exit(-1)}
+      if(semaphore!=0) {console.log('5');res.status(401).send({'error':'busy'}); process.exit(-1)}
       semaphoreRef.set(flag)
 
     }).then(delay(50)).then(()=>{
@@ -72,13 +72,16 @@ exports.handler = function(req, res){
       if(semaphore!=flag) {res.status(401).send({'error':'busy'}); process.exit(-1)}
 
     })
-    var order = admin.database().ref(`/preorders/${req.body.createdBy}/${req.body.orderId}`)
+    console.log(req.body.orderId)
+	console.log(req.body.createdBy)
+	var order = admin.database().ref(`/preorders/${req.body.createdBy}/${req.body.orderId}`)
     var orderdata
     var updatedata = new Object()
-
-    if(!order) {res.status(401).send({'error':'no_order'}); process.exit(-1)}
+	
+    if(!order) {console.log('1'); res.status(402).send( {'error':'no_order'}); process.exit(-1)}
     order.once('value', (ordersnapshot) =>{
     orderdata=ordersnapshot.val()
+	console.log(orderdata)
     var pipeline = admin.database().ref("/pipeline")
     pipeline.once("value").then((snapshot)=> {
           var ss = snapshot.val();
@@ -92,24 +95,28 @@ exports.handler = function(req, res){
           foodstate["queuetime"]=foodstate["queuetime"]+orderdata.foodmaketime;
           coffeeref.set(coffeestate);
           foodref.set(foodstate);
+		  console.log('222222222')
       }).then(()=>{/*利用once的promise確保上面動作做完後再寫入其他資訊並傳送*/
 
         updatedata.checked = 'Payed'
         updatedata.createdAt = admin.database.ServerValue.TIMESTAMP
         order.update(updatedata)
         semaphoreRef.set(0)
+		console.log('2222222232')
         res.status(200).send({serial:req.body.serial});
 
       }).catch(function(error) {
       // Handle token error
         semaphoreRef.set(0)
-        res.status(401).send({'error':'caculate_error'});
+		console.log('2')
+        res.status(402).send({'error':'caculate_error'});
 
       })
 
     }).catch(function(error) {
     // Handle token error
       semaphoreRef.set(0)
+	  console.log('3');
       res.status(401).send({'error':'send_error'});
 
       })

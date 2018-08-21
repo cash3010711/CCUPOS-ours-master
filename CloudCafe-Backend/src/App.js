@@ -430,12 +430,23 @@ class App extends Component {
     }
 	easycard(e_userID,e_orderID,e_money)
 	{
-		this.handleChecked(e_userID,e_orderID)
-		window.external.Ecard(e_money)
+		// this.handleChecked(e_userID,e_orderID)
+        window.external.Ecard(e_money, e_userID, e_orderID)
+
+        /* method 1
+        window.external.Ecard(e_money)  //e_money傳給C#，
+        this.handleChecked(e_userID,e_orderID)
+        */
+
+        /*method 2
+        window.external.Ecard(e_money)  //e_money傳給C#，
+        持續監聽
+            if(1)   this.handleChecked(e_userID,e_orderID)  //改狀態
+            if(0)   continue
+        */ 
 	}
 	
 	handleChecked(userID,orderID) {
-
         const data = {
             orderId: orderID,
             createdBy:userID
@@ -448,7 +459,17 @@ class App extends Component {
             'Content-Type': 'application/json',
           },
           body: JSON.stringify(data)
-        })
+          })
+          /*const aaaaa = {
+            method: 'POST',
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json',
+                },
+            body: JSON.stringify(data)
+            }
+          
+          console.log(aaaaa)*/
     }
 	
     handleMaking(userID,orderID) {              //state( Queued -> Making )
