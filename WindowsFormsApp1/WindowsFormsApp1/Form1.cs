@@ -187,7 +187,7 @@ namespace WindowsFormsApp1
             this.Rs232PortDoor();
             this.Send(easyCardMoney);
             //fetch 'https://us-central1-cafe-le-cloud.cloudfunctions.net/check'
-            // this.Rs232PortDoor();
+            
             orderID = origin_orderID;
             userID = origin_userID;
             MessageBox.Show(easyCardMoney);
@@ -220,6 +220,7 @@ namespace WindowsFormsApp1
             {
                 var result = streamReader.ReadToEnd();
             }
+            this.Rs232PortDoor();
         }
 
         /*private void InvokeTestMethod()
