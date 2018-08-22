@@ -445,6 +445,7 @@ class App extends Component {
             if(0)   continue
         */ 
 	}
+	//easycard success(){}
 	
 	handleChecked(userID,orderID) {
         const data = {
